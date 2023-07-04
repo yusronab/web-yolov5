@@ -7,5 +7,6 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 2000, // handle warning on vendor.js bundle size
   },
-  base: "/yolov5-tfjs/",
+  base: "/"
+  // base: "/yolov5-tfjs/",
 });
